@@ -5,7 +5,6 @@ function Mostar()
 	var nombre
 	var nombre = document.getElementById("elNombre").value;
 	 
-	 
      alert (nombre);
 	
     
