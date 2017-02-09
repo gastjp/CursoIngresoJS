@@ -23,9 +23,10 @@ function Rectangulo ()
 function Circulo () 
 {
 	var rad= document.getElementById ("Radio").value;
-	var alambre= rad*3;
-  (diametro*pi*2)
-		alert ("Se debe comprar la siguiente cantidad de alambre (en metros)= "+alambre);
+	var perimetro=2* rad* (Math.PI);
+	var perimetrox3=perimetro*3;
+
+		alert ("Se debe comprar la siguiente cantidad de alambre (en metros)= "+perimetrox3);
 
 }
 function Materiales () 
@@ -36,7 +37,9 @@ function Materiales ()
 	 ancho= document.getElementById ("Ancho").value;
  	cemento= (largo*ancho)*2;
  	cal= (largo*ancho)*3;
-	alert ("se necesitan"+cemento+"bolsas de cemento y" +cal+ "bolsas de cal");
+	alert ("se necesitan "+cemento+" bolsas de cemento y " +cal+ " bolsas de cal ");
+
+}	
 
 	
  

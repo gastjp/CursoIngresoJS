@@ -3,11 +3,19 @@ A.	Al ingresar una temperatura en Fahrenheit debemos mostrar la temperatura en C
 B.	Al ingresar una temperatura en Centígrados debemos mostrar la temperatura en Fahrenheit (ej.: "0  centígrados son 32 Fahrenheit ").
 */
 function FahrenheitCentigrados () 
-{
+{	
+	var fah= document.getElementById ("Temperatura").value;
+    var cel= (fah-32)/1.8;
+    	alert (fah+ "° Fahrenheit son "+cel+"° centígrados");
+
 	
 }
 
 function CentigradosFahrenheit () 
 {
-	
+	var cel= document.getElementById ("Temperatura").value;
+	var fah= cel*1.8+32;
+		alert (cel+ "° Centígrados son "+fah+ "° Fahrenheit");
+
+
 }
