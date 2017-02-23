@@ -1,6 +1,6 @@
 function Mostrar()
 {
-	var num=10;
+	var num=0;
 
 	while (num<10)
 	{
